@@ -6,12 +6,12 @@ from langchain_core.runnables import RunnableLambda
 from langgraph.prebuilt import ToolNode
 from langchain_core.messages import ToolMessage
 class plan_state(TypedDict):
-    task: str
+    task:str
+    goal:str
     messages: Annotated[list[AnyMessage], add_messages]
-    plan: str
     steps: List
-    steps2results: List
-    # current_step: int
+    steps2results: dict
+    current_step: int
     documents: List
 def handle_tool_error(state:plan_state) -> dict:
     error = state.get("error")
