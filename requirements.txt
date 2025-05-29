@@ -1,0 +1,11 @@
+langchain
+langchain-core
+langchain-openai
+langchain-community
+langgraph
+openai
+pydantic
+numpy
+python-dotenv
+streamlit
+streamlit-extras 
