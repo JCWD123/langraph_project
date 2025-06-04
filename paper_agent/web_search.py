@@ -22,7 +22,7 @@ def web_search(key_words: Optional[str]):
         - metadata: 原始搜索结果的元数据
     """
     documents = []
-    os.environ["TAVILY_API_KEY"] = "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"
+    os.environ["TAVILY_API_KEY"] = "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"
     search = TavilySearchResults()
     docs = search.invoke({"query": key_words})
     documents=[d["content"] for d in docs]
