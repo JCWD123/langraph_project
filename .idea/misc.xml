@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="langgraph_agent" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="langgraph_agent" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="langraph_search" project-jdk-type="Python SDK" />
 </project>
